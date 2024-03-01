@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script>
+      if(/Android/i.test(navigator.userAgent)){
+        window.location.replace("https://play.google.com/store/apps/details?id=org.meetingguide")
+      }else if(/iPhone|iPad|iPod/i.test(navigator.userAgent)){
+        window.location.replace("https://apps.apple.com/us/app/meeting-guide/id1042822181#?platform=iphone")
+      }
+      else{
+        window.location.replace("https://www.aa.org/meeting-guide-app")
+      }
+  </script>
+
+  </body>
+</html>
